@@ -1,0 +1,26 @@
+/* Customize your main colors in :root variables */
+:root {
+  --main-background-color: #343A50;
+  --card-background-lighter-color: #7A7F92;
+  --main-text-color:#F7F6F4;
+  --title-text-color:#3CBA8B;
+}
+
+body{
+ background-image: url('https://i.imgur.com/oeqrvA9.png');
+ background-size: cover;
+ background-repeat: no-repeat;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 1.2em;
+}
+
+h2, p{
+  color: var(--main-text-color);
+}
+
+h3{
+font-weight: normal;
+}
+
+
+
